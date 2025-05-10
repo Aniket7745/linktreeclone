@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS linktree_clone;
+
+USE linktree_clone;
+
+CREATE TABLE IF NOT EXISTS links (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    url VARCHAR(255) NOT NULL
+);
